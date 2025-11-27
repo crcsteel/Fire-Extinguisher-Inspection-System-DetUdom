@@ -4,6 +4,7 @@
 
 const API_BASE =
   "https://script.google.com/macros/s/AKfycbyIxYuIkd9NFQjA2rYd1ZaAqTcgMO1GELGhEbR8jxAQcOSri81NgGRZxZsx5Vr3w-GU/exec";
+  
 
 let currentScreen = "home";
 let currentEquipmentId = null;
