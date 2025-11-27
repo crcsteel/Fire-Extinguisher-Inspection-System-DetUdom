@@ -3,7 +3,7 @@
  ************************************************************/
 
 const API_BASE =
-  "https://script.google.com/macros/s/AKfycbxj-qD7quy8aW_wnkcm-jZ8XtVHJbaCeeWRl-xHaI6HIDytxNW7xZxeT2lnzO3wCsaO/exec";
+  "https://script.google.com/macros/s/AKfycbyIxYuIkd9NFQjA2rYd1ZaAqTcgMO1GELGhEbR8jxAQcOSri81NgGRZxZsx5Vr3w-GU/exec";
 
 let currentScreen = "home";
 let currentEquipmentId = null;
@@ -473,7 +473,7 @@ function renderExtinguisherList(list) {
           : "status-warn";
 
       return `
-        <div class="history-item">
+        <div class="history-item" onclick="selectExtinguisher('${e.id}')">
           <div class="history-header" style="display:flex; align-items:center; gap:20px;">
             <span class="history-id">${e.id}</span>
             <span class="history-date">${e.type}</span>
